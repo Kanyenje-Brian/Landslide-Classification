@@ -9,7 +9,7 @@ import io
 # ------------------------
 st.set_page_config(page_title="Prediction", page_icon="🤖", layout="wide")
 
-API_URL = "http://127.0.0.1:8000/predict/"  # Change to your FastAPI endpoint
+API_URL = "https://landslide-detection-production.up.railway.app/predict/"
 
 # ------------------------
 # UI Title
